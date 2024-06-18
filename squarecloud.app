@@ -1,0 +1,8 @@
+DISPLAY_NAME=TruceShop
+DESCRIPTION=Testando
+MAIN=index.js
+MEMORY=512
+SUBDOMAIN=truceapi
+START=node .
+VERSION=recommended
+AUTORESTART=true

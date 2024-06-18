@@ -1,0 +1,60 @@
+{
+    "Emojis_EntregAbaixo": [],
+    "Emojis_EntregAuto": [],
+    "pagamentos": {
+        "SemiAutomatico": {
+            "status": true,
+            "pix": "frbanido@gmail.com",
+            "msg": "Envie o comprovante!"
+        },
+        "BancosBloqueados": [
+            "neon",
+            "bradesco",
+            "inter",
+            "original"
+        ],
+        "MpAPI": "APP_USR-1522801842631722-041110-251250e9ae780d5a8345d811683a1497-609171212"
+    },
+    "ConfigChannels": {
+        "logpedidos": "1242084829517058118",
+        "eventbuy": "1242084829517058118",
+        "boasvindascoole": "1237230929488121896",
+        "systemlogs": "1242205405443264653",
+        "entradas": "1237231277867008010",
+        "saídas": "1237231321747558472",
+        "mensagens": "1237231383055962113",
+        "tráfego": "1237231424046759966",
+        "feedback": "1241915376254582845"
+    },
+    "Status1": "fr mais gostoso",
+    "Status2": "BlanK / NyX",
+    "AntiFake": {
+        "diasminimos": 0,
+        "status": [
+            "fr"
+        ],
+        "nomes": [
+            "padrão"
+        ]
+    },
+    "ConfigRoles": {
+        "cargoadm": "1241732733752053852",
+        "cargosup": "1241732781470515251",
+        "cargoCliente": "1241732726931853364",
+        "cargomembro": "1246100382288187426"
+    },
+    "Entradas": {
+        "msg": "Seja bem vindo {member}.",
+        "tempo": "6",
+        "channelid": [
+            "1241747799092236318"
+        ]
+    },
+    "Cores": {
+        "Principal": "#2b2d31",
+        "Processamento": "#2b2d31",
+        "Finalizado": "#2b2d31",
+        "Sucesso": "#2b2d31",
+        "Erro": "#2b2d31"
+    }
+}

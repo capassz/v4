@@ -1,0 +1,44 @@
+const { PermissionFlagsBits, ApplicationCommandOptionType, parseEmoji } = require("discord.js");
+const { JsonDatabase } = require("wio.db");
+const dbPerms = new JsonDatabase({ databasePath: "./DataBaseJson/perm.json" });
+
+module.exports = {
+    name: "banklist",
+    description: "Veja a lista de bancos bloqueaveis",
+    default_member_permissions: [PermissionFlagsBits.Administrator],
+    run: async (client, interaction) => {
+        
+        if (!dbPerms.has(interaction.user.id)) return interaction.reply({ content: `❌ Você não tem permissão para usar este comando.`, ephemeral: true});
+        const banklist = {
+            'Nu Pagamentos S.A.': 'nu',
+            'Nu Pagamentos S.A.': 'nubank',
+            'Mercadopago.com Representações Ltda.': 'mp',
+            'Banco do Brasil S.A.': 'bdb',
+            'Caixa Econômica Federal': 'caixa',
+            'Banco Itaú Unibanco S.A.': 'itau',
+            'Banco Bradesco S.A.': 'bradesco',
+            'Banco Inter S.A.': 'inter',
+            'Neon Pagamentos S.A.': 'neon',
+            'Original S.A.': 'original',
+            'Next': 'next',
+            'Agibank': 'agibank',
+            'Santander (Brasil) S.A.': 'santander',
+            'C6 Bank S.A.': 'c6',
+            'Banrisul': 'banrisul',
+            'PagSeguro Internet S.A.': 'pagseguro',
+            'BS2': 'bs2',
+            'Modalmais': 'modalmais'
+        };
+        let msg = "";
+        Object.entries(banklist).forEach((a) => {
+            msg += `- **Banco:** \`${a[0]}\`\n - Abreviado: \`${a[1]}\`\n`;
+        });
+
+        interaction.reply({
+            content:`## Aqui está a lista:\n${msg}`,
+            ephemeral:true
+        });
+
+
+    }
+}

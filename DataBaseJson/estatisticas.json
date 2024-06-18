@@ -1,0 +1,79 @@
+{
+    "6f7fce97-3d86-4288-9985-168b1887ab44": {
+        "produto": "Nitro",
+        "campo": "Nitro Gift Gaming",
+        "quantidade": 1,
+        "valor": 18,
+        "data": 1716125521556,
+        "guild": "1241566528927830086",
+        "userid": "1175695069555200055",
+        "id": "1241745099625332797",
+        "idpagamento": "Aprovado Manualmente"
+    },
+    "8894bb41-4ca9-492a-815a-66491b5d81a0": {
+        "produto": "Gift Gaming",
+        "campo": "Gift Gaming",
+        "quantidade": 1,
+        "valor": 18.99,
+        "data": 1716129670935,
+        "guild": "1241747798605561966",
+        "userid": "1175695069555200055",
+        "id": "1241761867744153742",
+        "idpagamento": "Aprovado Manualmente"
+    },
+    "71516b26-a0f1-41c2-825d-f80dcfa2a29d": {
+        "produto": "Gift Gaming",
+        "campo": "Gift Gaming",
+        "quantidade": 1,
+        "valor": 18.99,
+        "data": 1716166560496,
+        "guild": "1241747798605561966",
+        "userid": "1175695069555200055",
+        "id": "1241917194036842556",
+        "idpagamento": "Aprovado Manualmente"
+    },
+    "b6c39697-3e4d-4522-b48c-398cbb7e016a": {
+        "produto": "Gift Gaming",
+        "campo": "Gift Gaming",
+        "quantidade": 1,
+        "valor": 0.01,
+        "data": 1716166854660,
+        "guild": "1241747798605561966",
+        "userid": "1175695069555200055",
+        "id": "1241918064782475267",
+        "idpagamento": "Aprovado Manualmente"
+    },
+    "c2218e0f-fe5c-473f-8744-49f072221968": {
+        "produto": "Gift Gaming",
+        "campo": "Gift Gaming",
+        "quantidade": 1,
+        "valor": 0.01,
+        "data": 1716170108491,
+        "guild": "1241747798605561966",
+        "userid": "1175695069555200055",
+        "id": "1241931910230577162",
+        "idpagamento": "Aprovado Manualmente"
+    },
+    "fc5d19a3-b540-40b1-91e1-c022c1b13b14": {
+        "produto": "fgghh",
+        "campo": "defd",
+        "quantidade": 1,
+        "valor": 10,
+        "data": 1716215123132,
+        "guild": "1241747798605561966",
+        "userid": "1225085615498854524",
+        "id": "1242120919053369427",
+        "idpagamento": "Aprovado Manualmente"
+    },
+    "c078e4c0-5c46-45c0-91c0-45292c32cf62": {
+        "produto": "Gift Gaming",
+        "campo": "Gift Gaming",
+        "quantidade": 1,
+        "valor": 1,
+        "data": 1716236105189,
+        "guild": "1241747798605561966",
+        "userid": "1175695069555200055",
+        "id": "1242208607756484752",
+        "idpagamento": "Aprovado Manualmente"
+    }
+}
